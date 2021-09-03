@@ -11,6 +11,8 @@
 		71A628C426E1CA2700A61F59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A628C326E1CA2700A61F59 /* ContentView.swift */; };
 		71A628C626E1CA2900A61F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A628C526E1CA2900A61F59 /* Assets.xcassets */; };
 		71A628C926E1CA2900A61F59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A628C826E1CA2900A61F59 /* Preview Assets.xcassets */; };
+		71A628D226E1CD6600A61F59 /* Bodoni 72 Smallcaps Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A628D126E1CD6600A61F59 /* Bodoni 72 Smallcaps Book.ttf */; };
+		71A628D426E1DDE700A61F59 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A628D326E1DDE700A61F59 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		71A628C526E1CA2900A61F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A628C826E1CA2900A61F59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71A628CA26E1CA2900A61F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A628D126E1CD6600A61F59 /* Bodoni 72 Smallcaps Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni 72 Smallcaps Book.ttf"; sourceTree = "<group>"; };
+		71A628D326E1DDE700A61F59 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		71A628C026E1CA2700A61F59 /* simpleTest */ = {
 			isa = PBXGroup;
 			children = (
+				71A628D026E1CCE900A61F59 /* fonts */,
 				71A628C126E1CA2700A61F59 /* simpleTestApp.swift */,
 				71A628C326E1CA2700A61F59 /* ContentView.swift */,
 				71A628C526E1CA2900A61F59 /* Assets.xcassets */,
 				71A628CA26E1CA2900A61F59 /* Info.plist */,
 				71A628C726E1CA2900A61F59 /* Preview Content */,
+				71A628D326E1DDE700A61F59 /* InfoView.swift */,
 			);
 			path = simpleTest;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				71A628C826E1CA2900A61F59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71A628D026E1CCE900A61F59 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				71A628D126E1CD6600A61F59 /* Bodoni 72 Smallcaps Book.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A628C926E1CA2900A61F59 /* Preview Assets.xcassets in Resources */,
+				71A628D226E1CD6600A61F59 /* Bodoni 72 Smallcaps Book.ttf in Resources */,
 				71A628C626E1CA2900A61F59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A628C426E1CA2700A61F59 /* ContentView.swift in Sources */,
+				71A628D426E1DDE700A61F59 /* InfoView.swift in Sources */,
 				71A628C226E1CA2700A61F59 /* simpleTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
